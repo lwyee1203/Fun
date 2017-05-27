@@ -54,13 +54,12 @@ table {
 .wrap{
 	width: 1000px;
 	margin: 0px auto;
-	/*background-color: #FFF7FB;*/
+	background-image: url("bg_html.jpg");
 }
 
 .header{
 	margin: 10px;
-	border: 2px dashed 	#8E8E8E;
-	text-align: center;
+	padding-top: 5px;
 }
 
 .content{
@@ -69,6 +68,7 @@ table {
 }
 .footer{
 	margin: 10px;
+	padding-bottom: 5px;
 }
 
 h1{
@@ -77,6 +77,8 @@ h1{
 	font-weight: bold;
 	font-size: 30px;
 	padding: 10px;
+	border: 2px dashed 	#8E8E8E;
+	text-align: center;
 }
 
 a{
@@ -122,5 +124,5 @@ a{
 }
 
 .list a:hover{
-	color: 	#FF8F59;
+	color:	#FF8F59;
 }
